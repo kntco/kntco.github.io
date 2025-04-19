@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-background">
+    <div className=" h-screen overflow-hidden flex flex-col justify-between bg-background">
       <Navbar />
       <motion.main
         className="flex-1 flex flex-col items-center justify-center px-4 py-12 md:py-24"

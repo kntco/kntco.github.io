@@ -14,13 +14,10 @@ interface FooterProps {
 }
 
 const Footer = ({
-  companyName = "Company Name",
-  email = "contact@example.com",
+  companyName = "Konstant",
+  email = "yigit@konstant.dev",
   socialLinks = {
-    twitter: "https://twitter.com",
-    instagram: "https://instagram.com",
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
+    github: "https://github.com/kntco",
   },
 }: FooterProps) => {
   return (
